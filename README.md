@@ -1,8 +1,11 @@
-# quorum_test
+#  Quorum Test | Professional Services Developer 
 
+## Overview
 
-## Quorum tasks:
+This project focuses on processing legislative data using Python and Pandas. It includes two main tasks: analyzing voting activity per legislator and summarizing votes per bill.
 
+***
+## Answering the questions about the project: 
 
 ### 1. Discuss your solution’s time complexity. What tradeoffs did you make?
 
@@ -25,7 +28,7 @@ Another reason why I used pandas is that it is really easy to maintain, even if 
 
 ### 4. How long did you spend working on the assignment?
 
-As always, I like to break the problem into small and easily manageable pieces, so I started by reading a few times to make sure I understood what was required and planning the solution, then coding, searching, debugging and testing. This whole task took around 1 hour.
+As always, I like to break the problem into small and easily manageable pieces, so I started by reading a few times to make sure I understood what was required and planning the solution, then coding, searching, debugging, and testing. This whole task took around 1 hour.
 
 ***
 
@@ -40,18 +43,24 @@ As always, I like to break the problem into small and easily manageable pieces, 
 
   Install Visual Studio Code (VSCode): While not strictly necessary, VSCode is a popular IDE for Python development. Download and install it from [Visual Studio Code's website](https://code.visualstudio.com/).
 
-### 1. Clone the repository using git:
-  Run the command: ```git clone https://github.com/kevcap/quorum_test.git```
+### 1. Cloning the repo
+1. **Clone the Repository**:
+   - Run `git clone https://github.com/kevcap/quorum_test.git` in the terminal.
+2. **Navigate to Project Directory**:
+   - `cd quorum_test`
 
-### 2. Navigate to the Project Directory:
-  In the terminal, change directory to the project folder:
-  ```cd quorum_test```
+### Option 1: Using Plain Python + Pandas
+**Run Scripts in Terminal**:
+   - For voting activity per legislator: `python3 voting_activity_per_legislator.py`
+   - For votes per bill: `python3 votes_per_bill.py`
 
-### 3. Working with the Project
-  3.1. Open VSCode.
-  3.2. Choose 'Open Folder' and select the quorum_test folder.
-  3.3. Now you just have to open any of the two .ipynb files and run the code by clicking on the "Play" button ▶️ of each block; For reference, please check the video below:
-   
+
+### Option 2: Using VSCode and Jupyter Notebook
+  2. **Open Project in VSCode**:
+   - Open VSCode, choose 'Open Folder', and select the `quorum_test` folder.
+3. **Run Jupyter Notebooks**:
+   - Open `.ipynb` files and execute code blocks using the "Play" button ▶️.
+   - Refer to this [VSCode and Jupyter guide](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) for detailed instructions.
+   - Watch this for a practical demonstration.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h1sAzPojKMg/0.jpg)](https://www.youtube.com/watch?v=h1sAzPojKMg)
 
-[Official documentation of vscode<>jupyter](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
